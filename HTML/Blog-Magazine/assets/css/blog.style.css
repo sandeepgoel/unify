@@ -1,7 +1,7 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
- * Version: 1.9.2
+ * Version: 1.9
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
@@ -399,6 +399,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 38px;
 	font-weight: 600;
 	line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+	.blog-slider .blog-slider-title h2 {
+		font-size: 24px;
+		line-height: 1.4;
+	}
 }
 
 .blog-slider .blog-slider-title h2 a {
@@ -1458,9 +1465,4 @@ img.blog-grid-img-v1 {
 .promo-section .Newspaper-Subtitle,
 .promo-section .erinyen .tp-tab-title{
 	color: #27d7e7;
-}
-
-/*Hiding arrows for select field in IE*/
-select::-ms-expand {
-  display: none;
 }
